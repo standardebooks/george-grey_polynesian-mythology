@@ -28,43 +28,55 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Polynesian Mythology</dc:title>
 		<meta property="file-as" refines="#title">Polynesian Mythology</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<meta property="dcterms:alternative" refines="#title">Ko ngā mahinga a ngā tūpuna Māori</meta>
+		<dc:title id="subtitle">and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</dc:title>
+		<meta property="file-as" refines="#subtitle">Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs, and</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</dc:title>
+		<meta property="file-as" refines="#fulltitle">Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Mythology, Polynesian</dc:subject>
+		<dc:subject id="subject-2">Legends</dc:subject>
+		<dc:subject id="subject-3">New Zealand</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh86007275</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85075780</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">LCSH_ID_3</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<meta property="se:subject">Spirituality</meta>
+		<dc:description id="description">A collection of Māori mythology covering from the start of the universe through to the spread of Te Arawa through New Zealand's North Island.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs&lt;/i&gt; is one of the earliest printed collections of Māori traditional mythology, and is considered by some scholars to be the most authoritative and representative. Originally compiled in Māori as &lt;i&gt;Ko ngā mahinga a ngā tūpuna Māori&lt;/i&gt; (The Deeds of the Ancestors), it was translated by &lt;a href="https://standardebooks.org/ebooks/george-grey"&gt;Sir George Grey (1812 - 1898)&lt;/a&gt; and published in 1855, with a second edition in 1855. Grey's primary source was Te Rāngikaheke of Ngati Rangiwewehi (c. 1815 - 1896), who for several years lived with Grey for the purpose of teaching him the language and customs of the Māori; Grey never acknowledged Te Rāngikaheke's contributions, and made a number of changes.&lt;/p&gt;
+			&lt;p&gt;This collection of Māori mythology covers from the start of the universe through to the spread of Te Arawa through New Zealand's North Island. These stories, as part of an oral tradition, varied regionally. This volume, compiled from a number of sources, is in some cases a patchwork, representing a consensus that is not a true representation of the traditions of any one specific region. Additional sources include Hohepa Paraone of Te Ngae, the people of Mokoia, Matene Te Whiwhi, Hori Patara of Ngati Toa, Piri Kawau of Ati-Awa, and several unknown contributors. &lt;/p&gt;
+			&lt;p&gt;Sir George Grey was the third Governor of New Zealand, serving between 1845 - 1854 and again between 1861 - 1868. Following the establishment of the New Zealand Parliament, he was elected Premier in 1877. During his time in New Zealand, Grey oversaw significant land acquisition from the Māori and several battles in the New Zealand Wars, for which he summoned thousands of British Impreial troops. His collection of Māori manuscripts totals over 9,800 pages and is kept in the Auckland Public Library.&lt;/p&gt;
+			&lt;p&gt;Te Rāngikaheke of Ngati Rangiwewehi, also known as Wiremu Maihi or William Marsh was a tribal leader, scholar, government servant, and the first Māori to stand for election in a European parliamentary constituency. He was known as an orator, often speaking at important occasions, political meetings, and the Native Land Court. His writings have since been translated and published under his name.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://nzetc.victoria.ac.nz/tm/scholarly/tei-GrePoly.html</dc:source>
+		<dc:source>https://archive.org/details/polynesianmytho00greygoog/mode/2up</dc:source>
+		<meta property="se:production-notes">Transcription taken from Victoria University. Based on second 1885 edition.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Polynesian_Mythology</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/george-grey_polynesian-mythology</meta>
 		<dc:creator id="author">George Grey</dc:creator>
 		<meta property="file-as" refines="#author">Grey, George</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">George Edward Grey</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/George_Grey</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n84024647.html</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Gottfried Lindauer</dc:contributor>
+		<meta property="file-as" refines="#artist">Lindauer, Gottfried</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gottfried_Lindauer</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n89643745.html</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">AEL Data</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">AEL Data</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Asher Smith</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Smith, Asher</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
