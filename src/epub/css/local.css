@@ -1,7 +1,23 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-table td:last-child{
+/*Preface 2 table formatting*/
+#preface-2 tbody tr:last-child{
+    line-height: 2;
+    text-indent: 1em;
+}
+#preface-2 tfoot{
+  line-height: 2;
+}
+#preface-2 table td:last-child,
+#preface-2 table td:nth-last-child(2){
 	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
+/*End preface 2 table formatting*/
+
+/*Preface 2 manuscript list*/
+[epub|type~="z3998:unorderedlist"] blockquote p{
+  text-indent: 0;
+}
+/*End preface 2 manuscript list*/
