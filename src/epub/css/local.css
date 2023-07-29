@@ -66,4 +66,23 @@ figure.full-page{
 		object-fit: contain;
 	}
 }
+
+img.inline{
+	height: 1em;
+}
+
+/* Reasonable image sizes for larger screens based on image size and text resolution (roughly ~16 px : 1em at 'normal' sizes in browsers) */
+figure#music-1,
+figure#music-2,
+figure#music-3,
+figure#music-4,
+figure#music-5,
+figure#music-6,
+figure#music-7,
+figure#music-8,
+figure#music-9,
+figure#music-10,
+figure#music-12{
+	max-width: 30em;
+}
 /* End figures */
