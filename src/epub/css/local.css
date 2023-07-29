@@ -24,7 +24,7 @@
 }
 /* End preface 2 manuscript list */
 
-/*Figures*/
+/* Figures */
 figure{
 	break-inside: avoid;
 	margin: 1em 40px;
@@ -66,4 +66,4 @@ figure.full-page{
 		object-fit: contain;
 	}
 }
-/*End figures*/
+/* End figures */
