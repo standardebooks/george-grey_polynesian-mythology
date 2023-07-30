@@ -88,8 +88,11 @@ figure#music-12{
 /* End figures */
 
 /*Appendix headers*/
-header{
+header p{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
+}
+header i[xml\:lang="el"] {
+	font-variant: normal;
 }
