@@ -94,13 +94,44 @@ header p{
 	text-align: center;
 }
 
-header i[xml\:lang="el"]{
+header i[xml|lang~="el"]{
 	font-variant: normal;
 }
-/*End appendix headers*/
+/* End appendix headers */
 
-/*Appendix blockquote*/
+/* Appendix blockquote */
 #appendix-1 blockquote{
 	text-align: center;
 }
-/*End appendix blockquote*/
+/* End appendix blockquote */
+
+/* Verse */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
