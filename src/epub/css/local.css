@@ -86,3 +86,10 @@ figure#music-12{
 	max-width: 30em;
 }
 /* End figures */
+
+/*Appendix headers*/
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
