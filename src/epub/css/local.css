@@ -102,6 +102,18 @@ header p{
 header i[xml|lang~="el"]{
 	font-variant: normal;
 }
+
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
 /* End appendix headers */
 
 /* Appendix blockquote */
