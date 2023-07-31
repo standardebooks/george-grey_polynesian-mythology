@@ -7,19 +7,62 @@ abbr[epub|type~="se:era"]{
 }
 
 /* Preface 2 table formatting */
-#preface-2 tbody tr:last-child{
-	line-height: 2;
-	text-indent: 1em;
+#preface-2 table{
+	border-collapse: collapse;
+	margin: 1em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+#preface-2 tbody tr:last-child,
 #preface-2 tfoot{
 	line-height: 2;
+	text-indent: 1em;
 }
 
 #preface-2 table td:last-child,
 #preface-2 table td:nth-last-child(2){
 	font-variant-numeric: tabular-nums;
 	text-align: right;
+}
+
+#preface-2 table tbody td:nth-last-child(2),
+#preface-2 table tbody th:nth-last-child(2),
+#preface-2 table tfoot td:nth-last-child(2){
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+#preface-2 table tbody tr:first-child th,
+#preface-2 table tbody tr:last-child td:last-child,
+#preface-2 table tbody tr:last-child td:nth-last-child(2){
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+#preface-2 table th{
+	font-variant: small-caps;
+	padding-bottom: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: .5em;
+}
+
+#preface-2 td{
+	padding-right: 1em;
+}
+
+#preface-2 tbody tr:nth-child(2) td{
+	padding-top: .5em;
+}
+
+#preface-2 tbody tr:nth-last-child(2) td{
+	padding-bottom: .5em;
+}
+
+#preface-2 thead,
+#preface-2 tfoot{
+	border-bottom: 3px double #000;
 }
 /* End preface 2 table formatting */
 
