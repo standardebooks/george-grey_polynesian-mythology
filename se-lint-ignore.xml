@@ -6,10 +6,4 @@
 			<reason>Inline SVGs are being used to represent single symbols, so their alt text should just be used to name the symbol; ending punctuation in the alt text is not appropriate.</reason>
 		</ignore>
 	</file>
-	<file path="preface-2.xhtml">
-		<ignore>
-			<code>s-055</code>
-			<reason>th used as mid-table heading is given scope attribute.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
