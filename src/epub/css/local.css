@@ -72,6 +72,17 @@ abbr[epub|type~="se:era"]{
 }
 /* End preface 2 manuscript list */
 
+/* Preface 2 footer */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* End preface 2 footer */
+
 /* Figures */
 figure{
 	break-inside: avoid;
