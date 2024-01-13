@@ -59,7 +59,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://nzetc.victoria.ac.nz/tm/scholarly/tei-GrePoly.html</dc:source>
 		<dc:source>https://archive.org/details/polynesianmytho00greygoog/mode/2up</dc:source>
-		<meta property="se:production-notes">Transcription taken from Victoria University. Based on second 1885 edition. Māori spellings have been modernised based on guidelines set out by Te Taura Whiri i te Reo Māori, which holds that hyphens are to be removed for most names under 7 syllables long.</meta>
+		<meta property="se:production-notes">Transcription taken from Victoria University. Based on second 1885 edition. Māori spellings have been modernised based on the Guidelines for Māori Language Orthography set out by Te Taura Whiri i te Reo Māori, which holds that hyphens are to be removed for most names under 7 syllables long.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/george-grey_polynesian-mythology</meta>
