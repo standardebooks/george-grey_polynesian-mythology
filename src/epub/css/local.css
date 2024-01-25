@@ -6,6 +6,10 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
+[epub|type~="z3998:subchapter"]{
+	margin-top: 3em;
+}
+
 /* Preface 2 table formatting */
 #preface-2 table{
 	border-collapse: collapse;
