@@ -187,8 +187,8 @@
 		<itemref idref="appendix-1.xhtml"/>
 		<itemref idref="appendix-2.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="loi.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
-		<itemref idref="loi.xhtml"/>
 	</spine>
 </package>
