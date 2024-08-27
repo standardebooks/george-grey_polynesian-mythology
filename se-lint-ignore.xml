@@ -5,5 +5,9 @@
 			<code>t-026</code>
 			<reason>Inline SVGs are being used to represent single symbols, so their alt text should just be used to name the symbol; ending punctuation in the alt text is not appropriate.</reason>
 		</ignore>
+		<ignore>
+			<code>s-041</code>
+			<reason>LoI is giving the name of the piece, which is included in text outside the figure, so there is no need to repeat it as the figcaption or <img> alt element.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
