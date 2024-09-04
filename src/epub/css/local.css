@@ -70,12 +70,6 @@ abbr[epub|type~="se:era"]{
 }
 /* End preface 2 table formatting */
 
-/* Preface 2 manuscript list */
-[epub|type~="z3998:unorderedlist"] blockquote p{
-	text-indent: 0;
-}
-/* End preface 2 manuscript list */
-
 /* Preface 2 footer */
 footer{
 	margin-top: 1em;

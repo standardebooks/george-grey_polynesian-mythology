@@ -9,5 +9,13 @@
 			<code>s-041</code>
 			<reason>LoI is giving the name of the piece, which is included in text outside the figure, so there is no need to repeat it as the figcaption or img alt element.</reason>
 		</ignore>
+		<ignore>
+			<code>s-071</code>
+			<reason>Section contains headers that should not appear in ToC.</reason>
+		</ignore>
+		<ignore>
+			<code>s-077</code>
+			<reason>Headers that should not appear in ToC.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
