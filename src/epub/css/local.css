@@ -164,12 +164,6 @@ header i[xml|lang~="el"]{
 }
 /* End appendix headers */
 
-/* Appendix blockquote */
-#appendix-1 blockquote{
-	text-align: center;
-}
-/* End appendix blockquote */
-
 /* Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
