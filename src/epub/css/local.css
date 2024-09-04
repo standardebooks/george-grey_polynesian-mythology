@@ -141,7 +141,7 @@ figure#music-12{
 /* End figures */
 
 /* Appendix headers */
-header p{
+header p:not([epub|type~="bridgehead"]){
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
