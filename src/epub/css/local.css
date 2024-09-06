@@ -71,8 +71,8 @@ abbr[epub|type~="se:era"]{
 /* End preface 2 table formatting */
 
 /* Preface 2 ul */
-#preface-2 ul {
-    list-style-type: none;
+#preface-2 ul{
+	list-style-type: none;
 }
 /* End preface 2 ul */
 
