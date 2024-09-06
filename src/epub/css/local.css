@@ -162,6 +162,14 @@ header i[xml|lang~="el"]{
 }
 /* End appendix headers */
 
+/* Appendix siganture div */
+
+#appendix-1 div{
+	text-align: center;
+}
+
+/* End appendix siganture div */
+
 /* Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
