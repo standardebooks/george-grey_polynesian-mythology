@@ -13,9 +13,7 @@ abbr[epub|type~="se:era"]{
 /* Preface 2 table formatting */
 #preface-2 table{
 	border-collapse: collapse;
-	margin: 1em;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 1em auto;
 }
 
 #preface-2 tbody tr:last-child,
@@ -33,15 +31,15 @@ abbr[epub|type~="se:era"]{
 #preface-2 table tbody td:nth-last-child(2),
 #preface-2 table tbody th:nth-last-child(2),
 #preface-2 table tfoot td:nth-last-child(2){
-	border-left: 1px solid #000;
-	border-right: 1px solid #000;
+	border-left: 1px solid;
+	border-right: 1px solid;
 }
 
 #preface-2 table tbody tr:first-child th,
 #preface-2 table tbody tr:last-child td:last-child,
 #preface-2 table tbody tr:last-child td:nth-last-child(2){
-	border-bottom: 1px solid #000;
-	border-top: 1px solid #000;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
 }
 
 #preface-2 table th{
@@ -66,7 +64,7 @@ abbr[epub|type~="se:era"]{
 
 #preface-2 thead,
 #preface-2 tfoot{
-	border-bottom: 3px double #000;
+	border-bottom: 3px double;
 }
 /* End preface 2 table formatting */
 
@@ -187,11 +185,5 @@ header i[xml|lang~="el"]{
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
-}
-
-[epub|type~="z3998:verse"] cite{
-	font-style: normal;
-	font-variant: small-caps;
-	margin-top: 1em;
 }
 /* End verse */
