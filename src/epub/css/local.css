@@ -44,10 +44,7 @@ abbr[epub|type~="se:era"]{
 
 #preface-2 table th{
 	font-variant: small-caps;
-	padding-bottom: .5em;
-	padding-left: 1em;
-	padding-right: 1em;
-	padding-top: .5em;
+	padding: .5em 1em;
 }
 
 #preface-2 td{
