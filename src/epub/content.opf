@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/george-grey_te-rangikaheke/polynesian-mythology</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-09-12T21:04:13Z</dc:date>
+		<meta property="dcterms:modified">2024-09-12T21:04:13Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -31,10 +31,6 @@
 		<dc:title id="title">Polynesian Mythology</dc:title>
 		<meta property="file-as" refines="#title">Polynesian Mythology</meta>
 		<meta property="title-type" refines="#title">main</meta>
-		<meta property="dcterms:alternative" refines="#title">Ko ngā mahinga a ngā tūpuna Māori</meta>
-		<dc:title id="subtitle">and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</dc:title>
-		<meta property="file-as" refines="#subtitle">Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs, and</meta>
-		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</dc:title>
 		<meta property="file-as" refines="#fulltitle">Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
@@ -49,19 +45,17 @@
 		<meta property="term" refines="#subject-3">LCSH_ID_3</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Spirituality</meta>
-		<dc:description id="description">A collection of Māori mythology covering from the start of the universe through to the spread of Māori tribes through New Zealand’s North Island.</dc:description>
+		<dc:description id="description">A collection of Māori mythology covering the start of the universe through to the spread of Māori tribes through New Zealand’s North Island.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs&lt;/i&gt; is one of the earliest printed collections of Māori traditional mythology, and is considered by some scholars to be the most authoritative and representative. Originally compiled in Māori as &lt;i&gt;Ko ngā mahinga a ngā tūpuna Māori&lt;/i&gt; (The Deeds of the Ancestors), it was translated by &lt;a href="https://standardebooks.org/ebooks/george-grey"&gt;Sir George Grey (1812–1898)&lt;/a&gt; and published in 1855, with a second edition in 1855. Grey’s primary source was Te Rāngikaheke of Ngāti Rangiwewehi (c. 1815–1896), who for several years lived with Grey for the purpose of teaching him the language and customs of the Māori; Grey never acknowledged Te Rāngikaheke’s contributions, and made a number of changes.&lt;/p&gt;
-			&lt;p&gt;This collection of Māori mythology covers from the start of the universe through to the spread of Te Arawa through New Zealand’s North Island. These stories, as part of an oral tradition, varied regionally. This volume, compiled from a number of sources, is in some cases a patchwork, representing a consensus that is not a true representation of the traditions of any one specific region. Additional sources include Hohepa Paraone of Te Ngae, the people of Mokoia, Matene Te Whiwhi, Hori Patara of Ngāti Toa, Piri Kawau of Āti Awa, and several unknown contributors.&lt;/p&gt;
-			&lt;p&gt;Sir George Grey was the third Governor of New Zealand, serving between 1845–1854 and again between 1861–1868. Following the establishment of the New Zealand Parliament, he was elected Premier in 1877. During his time in New Zealand, Grey oversaw significant land acquisition from the Māori and several battles in the New Zealand Wars, for which he summoned thousands of British Impreial troops. His collection of Māori manuscripts totals over 9,800 pages and is kept in the Auckland Public Library.&lt;/p&gt;
-			&lt;p&gt;Te Rāngikaheke of Ngāti Rangiwewehi, also known as Wiremu Maihi or William Marsh was a tribal leader, scholar, government servant, and the first Māori to stand for election in a European parliamentary constituency. He was known as an orator, often speaking at important occasions, political meetings, and the Native Land Court. His writings have since been translated and published under his name.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Polynesian Mythology&lt;/i&gt; is one of the earliest printed collections of Māori traditional mythology, and is considered by some scholars to be the most authoritative and representative. Originally compiled in Māori as &lt;i&gt;Ko ngā mahinga a ngā tūpuna Māori&lt;/i&gt;, “The Deeds of the Ancestors,” it was translated by &lt;a href="https://standardebooks.org/ebooks/george-grey"&gt;George Grey&lt;/a&gt;, the third governor of New Zealand, in 1855. Grey’s primary source was Te Rāngikaheke of Ngāti Rangiwewehi, who for several years lived with Grey for the purpose of teaching him the language and customs of the Māori. Grey never acknowledged Te Rāngikaheke’s contributions, and made a number of changes.&lt;/p&gt;
+			&lt;p&gt;This collection of Māori mythology covers the start of the universe through to the spread of Māori tribes through New Zealand’s North Island. These stories, as part of an oral tradition, varied regionally. This volume, compiled from a number of sources, is in some cases a patchwork, representing a consensus that is not a true representation of the traditions of any one specific region. Additional sources include Hohepa Paraone of Te Ngae, the people of Mokoia, Matene Te Whiwhi, Hori Patara of Ngāti Toa, Piri Kawau of Āti Awa, and several unknown contributors.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://nzetc.victoria.ac.nz/tm/scholarly/tei-GrePoly.html</dc:source>
 		<dc:source>https://archive.org/details/polynesianmytho00greygoog/mode/2up</dc:source>
-		<meta property="se:production-notes">Transcription taken from Victoria University. Based on second 1885 edition. Māori spellings (including macron placement) have been modernised based on the Guidelines for Māori Language Orthography set out by Te Taura Whiri i te Reo Māori, which holds that hyphens are to be removed for most names under 7 syllables long. Endnote 26 has been changed to make it clearer by merging two editions' versions of the note.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">Based on second 1885 edition. Māori spellings (including macron placement) have been modernised based on the Guidelines for Māori Language Orthography set out by Te Taura Whiri i te Reo Māori, which holds that hyphens are to be removed for most names under 7 syllables long. Endnote 26 has been changed to make it clearer by merging two editions' versions of the note.</meta>
+		<meta property="se:word-count">95434</meta>
+		<meta property="se:reading-ease.flesch">52.77</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/george-grey_te-rangikaheke_polynesian-mythology</meta>
 		<dc:creator id="author">George Grey</dc:creator>
 		<meta property="file-as" refines="#author">Grey, George</meta>
@@ -73,7 +67,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:creator id="contributor">Te Rāngikaheke</dc:creator>
-		<meta property="file-as" refines="#author">Rāngikaheke, Te</meta>
+		<meta property="file-as" refines="#contributor">Rāngikaheke, Te</meta>
 		<meta property="se:name.person.full-name" refines="#contributor">Wī Maihi Te Rangikāheke</meta>
 		<meta property="dcterms:alternative" refines="#contributor">Wiremu Maihi</meta>
 		<meta property="dcterms:alternative" refines="#contributor">William Marsh</meta>
