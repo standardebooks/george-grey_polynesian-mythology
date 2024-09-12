@@ -9,6 +9,7 @@ abbr[epub|type~="se:era"]{
 /* Preface 2 table formatting */
 #preface-2 table{
 	border-collapse: collapse;
+	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
 }
 
@@ -20,7 +21,6 @@ abbr[epub|type~="se:era"]{
 
 #preface-2 table td:last-child,
 #preface-2 table td:nth-last-child(2){
-	font-variant-numeric: tabular-nums;
 	text-align: right;
 }
 
@@ -111,7 +111,7 @@ figure.full-page{
 	}
 }
 
-img.inline{
+p img{
 	height: 1em;
 }
 /* End figures */
@@ -120,7 +120,6 @@ img.inline{
 header p:not([epub|type~="bridgehead"]){
 	font-variant: small-caps;
 	margin: 1em;
-	text-align: center;
 }
 
 header i[xml|lang~="el"]{
@@ -141,8 +140,17 @@ header i[xml|lang~="el"]{
 /* End appendix headers */
 
 /* Appendix siganture div */
-#appendix-1 div{
+#appendix-1 footer{
 	text-align: center;
+}
+
+#appendix-1 > section + section{
+	break-before: always;
+	margin-top: 3em;
+}
+
+#appendix-1 section header{
+	margin-top: 3em;
 }
 /* End appendix siganture div */
 
