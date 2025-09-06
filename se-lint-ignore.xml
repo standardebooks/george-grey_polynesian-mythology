@@ -2,10 +2,6 @@
 <se-lint-ignore>
 	<file path="appendix-1.xhtml">
 		<ignore>
-			<code>s-041</code>
-			<reason>LoI is giving the name of the piece, which is included in text outside the figure, so there is no need to repeat it as the figcaption or img alt element.</reason>
-		</ignore>
-		<ignore>
 			<code>y-019</code>
 			<reason>Dialogue is interrupted by an illustration, the opening quote is in the preceding paragraph.</reason>
 		</ignore>
@@ -14,6 +10,12 @@
 		<ignore>
 			<code>t-003</code>
 			<reason>Dialog is broken as-is in print.</reason>
+		</ignore>
+	</file>
+	<file path="loi.xhtml">
+		<ignore>
+			<code>s-041</code>
+			<reason>LoI is giving the name of the piece, which is included in text outside the figure, so there is no need to repeat it as the figcaption or img alt element.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
