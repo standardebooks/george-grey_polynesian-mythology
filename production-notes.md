@@ -1,0 +1,1 @@
+Based on second 1885 edition. Māori spellings (including macron placement) have been modernised based on the Guidelines for Māori Language Orthography set out by Te Taura Whiri i te Reo Māori, which holds that hyphens are to be removed for most names under 7 syllables long. Endnote 26 has been changed to make it clearer by merging two editions' versions of the note.

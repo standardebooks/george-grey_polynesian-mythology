@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/george-grey/polynesian-mythology</dc:identifier>
 		<dc:date>2024-09-12T21:04:13Z</dc:date>
 		<meta property="dcterms:modified">2024-09-12T21:04:13Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -43,8 +44,8 @@
 		<meta property="term" refines="#subject-2">sh85075780</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">LCSH_ID_3</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Spirituality</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Spirituality</meta>
 		<dc:description id="description">A collection of Māori mythology covering the start of the universe through to the spread of Māori tribes through New Zealand’s North Island.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Polynesian Mythology&lt;/i&gt; is one of the earliest printed collections of Māori traditional mythology, and is considered by some scholars to be the most authoritative and representative. Originally compiled in Māori as &lt;i&gt;Ko ngā mahinga a ngā tūpuna Māori&lt;/i&gt;, “The Deeds of the Ancestors,” it was translated by &lt;a href="https://standardebooks.org/ebooks/george-grey"&gt;George Grey&lt;/a&gt;, the third governor of New Zealand, in 1855. Grey’s primary source was Te Rāngikaheke of Ngāti Rangiwewehi, who for several years lived with Grey for the purpose of teaching him the language and customs of the Māori. Grey never acknowledged Te Rāngikaheke’s contributions, and made a number of changes.&lt;/p&gt;
@@ -53,31 +54,32 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://nzetc.victoria.ac.nz/tm/scholarly/tei-GrePoly.html</dc:source>
 		<dc:source>https://archive.org/details/polynesianmytho00greygoog</dc:source>
-		<meta property="se:production-notes">Based on second 1885 edition. Māori spellings (including macron placement) have been modernised based on the Guidelines for Māori Language Orthography set out by Te Taura Whiri i te Reo Māori, which holds that hyphens are to be removed for most names under 7 syllables long. Endnote 26 has been changed to make it clearer by merging two editions' versions of the note.</meta>
-		<meta property="se:word-count">95132</meta>
-		<meta property="se:reading-ease.flesch">52.77</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/george-grey_polynesian-mythology</meta>
+		<meta property="schema:wordCount">95132</meta>
+		<meta property="schema:educationalLevel">52.77</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/george-grey_polynesian-mythology" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">George Grey</dc:creator>
 		<meta property="file-as" refines="#author">Grey, George</meta>
-		<meta property="se:name.person.full-name" refines="#author">George Edward Grey</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/George_Grey</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n84024647</meta>
+		<meta property="schema:alternateName" refines="#author">George Edward Grey</meta>
+		<link href="https://en.wikipedia.org/wiki/George_Grey" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n84024647.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="contributor">Te Rāngikaheke</dc:contributor>
 		<meta property="file-as" refines="#contributor">Rāngikaheke, Te</meta>
-		<meta property="se:name.person.full-name" refines="#contributor">Wī Maihi Te Rangikāheke</meta>
+		<meta property="schema:alternateName" refines="#contributor">Wī Maihi Te Rangikāheke</meta>
 		<meta property="dcterms:alternative" refines="#contributor">Wiremu Maihi</meta>
 		<meta property="dcterms:alternative" refines="#contributor">William Marsh</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor">https://en.wikipedia.org/wiki/Te_Rangik%C4%81heke</meta>
-		<meta property="se:url.authority.nacoaf" refines="#contributor">http://id.loc.gov/authorities/names/n94104301</meta>
+		<link href="https://en.wikipedia.org/wiki/Te_Rangik%C4%81heke" refines="#contributor" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n94104301.html" refines="#contributor" rel="schema:sameAs"/>
 		<meta property="role" refines="#contributor" scheme="marc:relators">ctb</meta>
 		<dc:contributor id="artist">Gottfried Lindauer</dc:contributor>
 		<meta property="file-as" refines="#artist">Lindauer, Gottfried</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Gottfried_Lindauer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n89643745</meta>
+		<link href="https://en.wikipedia.org/wiki/Gottfried_Lindauer" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n89643745.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">AEL Data</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">AEL Data</meta>
@@ -95,7 +97,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
