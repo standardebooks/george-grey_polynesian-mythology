@@ -34,7 +34,7 @@
 		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="fulltitle">Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</dc:title>
 		<meta property="file-as" refines="#fulltitle">Polynesian Mythology and Ancient Traditional History of the New Zealand Race, as Furnished by Their Priests and Chiefs</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Mythology, Polynesian</dc:subject>
 		<dc:subject id="subject-2">Legends</dc:subject>
 		<dc:subject id="subject-3">New Zealand</dc:subject>
