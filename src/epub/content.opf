@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/george-grey/polynesian-mythology</dc:identifier>
 		<dc:date>2024-09-12T21:04:13Z</dc:date>
@@ -46,11 +46,11 @@
 		<meta property="term" refines="#subject-3">LCSH_ID_3</meta>
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Spirituality</meta>
-		<dc:description id="description">A collection of Māori mythology covering the start of the universe through to the spread of Māori tribes through New Zealand’s North Island.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of Māori mythology covering the start of the universe through to the spread of Māori tribes through New Zealand’s North Island.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Polynesian Mythology&lt;/i&gt; is one of the earliest printed collections of Māori traditional mythology, and is considered by some scholars to be the most authoritative and representative. Originally compiled in Māori as &lt;i&gt;Ko ngā mahinga a ngā tūpuna Māori&lt;/i&gt;, “The Deeds of the Ancestors,” it was translated by &lt;a href="https://standardebooks.org/ebooks/george-grey"&gt;George Grey&lt;/a&gt;, the third governor of New Zealand, in 1855. Grey’s primary source was Te Rāngikaheke of Ngāti Rangiwewehi, who for several years lived with Grey for the purpose of teaching him the language and customs of the Māori. Grey never acknowledged Te Rāngikaheke’s contributions, and made a number of changes.&lt;/p&gt;
 			&lt;p&gt;This collection of Māori mythology covers the start of the universe through to the spread of Māori tribes through New Zealand’s North Island. These stories, as part of an oral tradition, varied regionally. This volume, compiled from a number of sources, is in some cases a patchwork, representing a consensus that is not a true representation of the traditions of any one specific region. Additional sources include Hohepa Paraone of Te Ngae, the people of Mokoia, Matene Te Whiwhi, Hori Patara of Ngāti Toa, Piri Kawau of Āti Awa, and several unknown contributors.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://nzetc.victoria.ac.nz/tm/scholarly/tei-GrePoly.html</dc:source>
 		<dc:source>https://archive.org/details/polynesianmytho00greygoog</dc:source>
